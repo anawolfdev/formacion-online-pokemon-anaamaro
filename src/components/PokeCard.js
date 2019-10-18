@@ -19,7 +19,7 @@ const PokeCard = props => {
 					alt={props.pokemones.name}
 					title={props.pokemones.name}
 				/>
-				<h2 className='pokemon_id'>ID/{props.pokemones.id}</h2>
+				<h2 className='pokemon__id'>ID / {props.pokemones.id}</h2>
 			</div>
 			<div className='pokemon__card'>
 				<h2 className='pokemon__name'>{props.pokemones.name}</h2>

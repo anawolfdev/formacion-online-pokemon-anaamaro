@@ -1,13 +1,13 @@
 const getData = () => {
 	return fetch('./data.json')
 		.then(res => res.json())
-		.then(pokemons => {
-			return pokemons.map(pokemon => {
+		.then(data => {
+			return data.map(pokemones => {
 				return {
-					id: pokemon.id,
-					url: pokemon.url,
-					name: pokemon.name,
-					types: pokemon.types
+					id: pokemones.id,
+					url: pokemones.url,
+					name: pokemones.name,
+					types: pokemones.types
 				};
 			});
 		})

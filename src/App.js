@@ -4,14 +4,14 @@ import PokeList from './components/PokeList';
 import PokeFilter from './components/PokeFilter';
 import './App.css';
 
-let pokemonsFilter = [];
+let pokemonesFilter = [];
 
 class App extends React.Component {
   constructor() {
     super();
 
     this.state = {
-      pokemons: [],
+      pokemones: [],
       filter: ''
     };
 
@@ -19,9 +19,9 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    getData().then(pokemons => {
+    getData().then(pokemones => {
       this.setState({
-        pokemons: pokemons
+        pokemones: pokemones
       });
     });
   }
@@ -34,8 +34,8 @@ class App extends React.Component {
   }
 
   render() {
-    pokemonsFilter = this.state.pokemons.filter(pokemon => {
-      return pokemon.name
+    pokemonesFilter = this.state.pokemones.filter(pokemones => {
+      return pokemones.name
         .toUpperCase()
         .includes(this.state.filter.toUpperCase());
     });
@@ -45,10 +45,10 @@ class App extends React.Component {
         <h1 className='title'>
         </h1>
         <PokeFilter
-          filter={pokemonsFilter}
+          filter={pokemonesFilter}
           handleFilter={this.handleFilter}
         />
-        <PokeList pokemons={pokemonsFilter}
+        <PokeList pokemones={pokemonesFilter}
         />
       </div>
     );

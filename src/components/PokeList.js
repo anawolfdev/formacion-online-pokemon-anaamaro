@@ -2,8 +2,8 @@ import React from 'react';
 import PokeCard from './PokeCard';
 
 const renderList = props => {
-	return props.pokemons.map((pokemon, index) => {
-		return <PokeCard key={index} pokemon={pokemon} />;
+	return props.pokemones.map((item, index) => {
+		return <PokeCard key={index} pokemones={item} />;
 	});
 };
 

@@ -10,7 +10,7 @@ class PokeFilter extends React.Component {
 						id='name'
 						name='name'
 						onChange={this.props.handleFilter}
-						value={this.props.filter}
+						value='Filtra pokemons por nombre...'
 					/>
 				</label>
 			</div>

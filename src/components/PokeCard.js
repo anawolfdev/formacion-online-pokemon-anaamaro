@@ -1,9 +1,9 @@
 import React from 'react';
 
 const PokeTypes = props => {
-	return props.pokemon.types.map((type, index) => {
+	return props.pokemones.types.map((type, index) => {
 		return (
-			<li className='pokemon__skills' key={index}>
+			<li className='pokemones__types' key={index}>
 				{type}
 			</li>
 		);
@@ -12,14 +12,17 @@ const PokeTypes = props => {
 
 const PokeCard = props => {
 	return (
-		<li className='pokemons' key={props.pokemon.id}>
-			<img
-				src={props.pokemon.url}
-				alt={props.pokemon.name}
-				title={props.pokemon.name}
-			/>
+		<li className='pokemones'>
+			<div className="pokemones__img">
+				<img
+					src={props.pokemones.url}
+					alt={props.pokemones.name}
+					title={props.pokemones.name}
+				/>
+				<h2 className='pokemon_id'>ID/{props.pokemones.id}</h2>
+			</div>
 			<div className='pokemon__card'>
-				<h2 className='pokemon__name'>{props.pokemon.name}</h2>
+				<h2 className='pokemon__name'>{props.pokemones.name}</h2>
 				<ul className='pokemon__types'>{PokeTypes(props)}</ul>
 			</div>
 		</li>

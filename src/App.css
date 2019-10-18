@@ -1,2 +1,54 @@
 .app {
+  text-align: center;
+  display: block;
+  text-transform: capitalize;
+}
+
+.pokemones {
+  width: 150px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1.5px solid #000;
+  border-radius: 5%;
+}
+
+.pokemones__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px 200px 20px;
+}
+
+.pokemon__types {
+  list-style: none;
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 0;
+  padding-top: 5px;
+  margin-bottom: 10px;
+}
+
+.pokemon__name {
+  border-top: 1px solid black;
+  padding-top: 20px;
+}
+
+.pokemon__card {
+  width: 100%;
+}
+
+.pokemones__types {
+  background-color: grey;
+  color: white;
+  padding: 5px;
+  border-radius: 20%;
+  margin: 10px 0;
+  text-transform: uppercase;
+  font-size: 10px;
 }

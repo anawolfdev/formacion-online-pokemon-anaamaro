@@ -2,7 +2,7 @@ const getData = () => {
 	return fetch('./data.json')
 		.then(res => res.json())
 		.then(data => {
-			return data.results.map(pokemones => {
+			return data.map(pokemones => {
 				return {
 					id: pokemones.id,
 					name: pokemones.name,

@@ -14,7 +14,7 @@ Webapp sobre Pokemons que muestra un listado de los 25 primeros. Consta de un bu
 
 - React
 
-## Realizado por:
+### Realizado por:
 
 Ana Amaro:
 

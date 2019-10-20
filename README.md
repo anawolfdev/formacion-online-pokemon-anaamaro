@@ -2,7 +2,7 @@
 
 Webapp sobre Pokemons que muestra un listado de los 25 primeros. Consta de un buscador para poder filtar los pokemons por nombre.
 
-![Solicitudes](public/images/pokemons.png)
+![pokemons](public/pokemons.png)
 
 ### Pasos para utilizar la aplicación:
 

@@ -5,11 +5,12 @@ class PokeFilter extends React.Component {
 		return (
 			<div>
 				<label htmlFor='pokefilter'>
-					<input
+					<input className='poke__input'
 						type='text'
 						id='name'
 						name='name'
 						onChange={this.props.handleFilter}
+						placeholder='Filtra pokemons por nombre...'
 					/>
 				</label>
 			</div>

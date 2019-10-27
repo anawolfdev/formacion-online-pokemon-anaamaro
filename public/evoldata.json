@@ -1,0 +1,257 @@
+[
+  {
+    "id": 1,
+    "level": 16,
+    "species": [
+      "bulbasaur",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+      "ivysaur",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
+    ]
+  },
+  {
+    "id": 2,
+    "level": [
+      16,
+      32
+    ],
+    "species": [
+      "bulbasaur",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+      "ivysaur",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+      "venusaur",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
+    ]
+  },
+  {
+    "id": 3,
+    "level": 32,
+    "species": [
+      "ivysaur",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+      "venusaur",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
+    ]
+  },
+  {
+    "id": 4,
+    "level": 16,
+    "species": [
+      "charmander",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+      "charmeleon",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+    ]
+  },
+  {
+    "id": 5,
+    "level": 16,
+    "species": [
+      "charmander",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+      "charmeleon",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+    ]
+  },
+  {
+    "id": 6,
+    "level": 16,
+    "species": [
+      "charmander",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+      "charmeleon",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+    ]
+  },
+  {
+    "id": 7,
+    "level": 16,
+    "species": [
+      "charmander",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+      "charmeleon",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+    ]
+  },
+  {
+    "id": 8,
+    "level": 16,
+    "species": [
+      "charmander",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+      "charmeleon",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+    ]
+  },
+  {
+    "id": 9,
+    "level": 16,
+    "species": [
+      "charmander",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+      "charmeleon",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+    ]
+  },
+  {
+    "id": 10,
+    "level": 16,
+    "species": [
+      "charmander",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+      "charmeleon",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+    ]
+  },
+  {
+    "id": 11,
+    "level": 16,
+    "species": [
+      "charmander",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+      "charmeleon",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+    ]
+  },
+  {
+    "id": 12,
+    "level": 16,
+    "species": [
+      "charmander",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+      "charmeleon",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+    ]
+  },
+  {
+    "id": 13,
+    "level": 16,
+    "species": [
+      "charmander",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+      "charmeleon",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+    ]
+  },
+  {
+    "id": 14,
+    "level": 16,
+    "species": [
+      "charmander",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+      "charmeleon",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+    ]
+  },
+  {
+    "id": 15,
+    "level": 16,
+    "species": [
+      "charmander",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+      "charmeleon",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+    ]
+  },
+  {
+    "id": 16,
+    "level": 16,
+    "species": [
+      "charmander",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+      "charmeleon",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+    ]
+  },
+  {
+    "id": 17,
+    "level": 16,
+    "species": [
+      "charmander",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+      "charmeleon",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+    ]
+  },
+  {
+    "id": 18,
+    "level": 16,
+    "species": [
+      "charmander",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+      "charmeleon",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+    ]
+  },
+  {
+    "id": 19,
+    "level": 16,
+    "species": [
+      "charmander",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+      "charmeleon",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+    ]
+  },
+  {
+    "id": 20,
+    "level": 16,
+    "species": [
+      "charmander",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+      "charmeleon",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+    ]
+  },
+  {
+    "id": 21,
+    "level": 16,
+    "species": [
+      "charmander",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+      "charmeleon",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+    ]
+  },
+  {
+    "id": 22,
+    "level": 16,
+    "species": [
+      "charmander",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+      "charmeleon",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+    ]
+  },
+  {
+    "id": 23,
+    "level": 16,
+    "species": [
+      "charmander",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+      "charmeleon",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+    ]
+  },
+  {
+    "id": 24,
+    "level": 24,
+    "species": [
+      "charmander",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+      "charmeleon",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+    ]
+  },
+  {
+    "id": 25,
+    "level": 16,
+    "species": [
+      "charmander",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+      "charmeleon",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+    ]
+  }
+]

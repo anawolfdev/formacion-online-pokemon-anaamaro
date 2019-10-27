@@ -5,9 +5,12 @@ const getData = () => {
 			return data.map(pokemones => {
 				return {
 					id: pokemones.id,
+					height: pokemones.height,
+					weight: pokemones.weight,
 					url: pokemones.url,
 					name: pokemones.name,
-					types: pokemones.types
+					types: pokemones.types,
+					abilities: pokemones.abilities
 				};
 			});
 		})

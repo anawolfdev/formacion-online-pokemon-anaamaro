@@ -3,15 +3,17 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
 const PokeDetail = props => {
-	const { routerProps, pokemones, evolutions } = props;
-	const pokemonId = parseInt(routerProps.match.params.pokemonId);
-	const evolutionId = parseInt(routerProps.match.params.evolutionId);
-	const pokemon = pokemones.find(item => item.id === pokemonId);
-	const evolution = evolutions.find(item => item.id === evolutionId);
 
-	if (pokemon && evolution) {
+	const { RouteProps, pokemones } = props;
+	const pokemonId = parseInt(RouteProps.match.params.pokemonId);
+	//const evolutionId = parseInt(RouteProps.match.params.evolutionId);
+	const pokemon = pokemones.find(item => item.id === pokemonId);
+	//const evolution = evolutions.find(item => item.id === evolutionId);
+
+
+	if (pokemon) {
 		const { url, name, height, weight, abilities } = pokemon;
-		const { level, species } = evolution;
+		//const { level, species } = evolution;
 		return (
 			<React.Fragment>
 				<div className='pokemon__detail'>
@@ -31,10 +33,8 @@ const PokeDetail = props => {
 							</li>
 							<li className='pokemon__detail__abilities'>Abilities: {abilities}</li>
 							<li className='pokemon__detail__level'>
-								level: {level}
 							</li>
 							<li className='pokemon__detail__species'>
-								species: {species}
 							</li>
 						</ul>
 					</div>
@@ -52,9 +52,9 @@ const PokeDetail = props => {
 	}
 }
 
-PokeDetail.PropTypes = {
-	routerProps: PropTypes.object.isRequired,
-	pokemones: PropTypes.arrayOf(PropTypes.object).isRequired
+PokeDetail.propTypes = {
+	RouteProps: PropTypes.object,
+	pokemones: PropTypes.arrayOf(PropTypes.object)
 };
 
 export default PokeDetail;

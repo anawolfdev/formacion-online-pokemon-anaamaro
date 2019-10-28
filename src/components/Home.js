@@ -15,9 +15,9 @@ const Home = props => {
 };
 
 Home.propTypes = {
-  filter: PropTypes.string.isRequired,
-  handleFilter: PropTypes.func.isRequired,
-  pokemones: PropTypes.arrayOf(PropTypes.object).isRequired
-};
+  filter: PropTypes.string,
+  handleFilter: PropTypes.func,
+  pokemones: PropTypes.arrayOf(PropTypes.object)
+}
 
 export default Home;

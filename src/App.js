@@ -52,21 +52,24 @@ class App extends React.Component {
 			<div className='app'>
 				<h1 className='title'>
 				</h1>
+
 				<BrowserRouter>
 					<Switch>
 						<Route
-							exact path='/'
+							exact
+							path='/'
 							render={() => {
 								return (
 									<Home
-										filter={pokemonesFilter}
+										filter={this.state.filter}
 										handleFilter={this.handleFilter}
+										pokemones={pokemonesFilter}
 									/>
 								);
 							}}
 						/>
 
-						<Route path='/pokemon__detail/:pokemonesId'
+						<Route path='/pokemon__detail/:pokemonId'
 							render={RouteProps => {
 								return (
 									<PokeDetail
